@@ -7,8 +7,10 @@
   font-family: "Merriweather", serif;
 }
 
+/* banner styles start */
+
 .banner {
-  width: 1320px;
+  width: 1300px;
   height: 600px;
   margin: 50px 120px;
   border-radius: 15px;
@@ -37,6 +39,8 @@
   font-weight: 700;
   padding: 0px 340px;
 }
+
+/* offer styles start */
 
 .offer-title {
   color: #f00;
@@ -73,7 +77,11 @@
   fill: lightgray 50%;
 }
 
+/* welcome styles start */
+
 .welcome-session {
+  width: 1000px;
+  height: 500px;
   display: flex;
   align-items: center;
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -115,6 +123,8 @@
   margin-top: 30px;
 }
 
+/* schedule styles start */
+
 .schedule-section {
   background: linear-gradient(
     180deg,
@@ -136,4 +146,142 @@
 
 .schedule-span {
   color: #f00;
+}
+
+/* best offer style start */
+
+.best-offer-section {
+  display: flex;
+  margin: 0px 140px;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+
+.best-offer {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+
+.best-offer-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.best-offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  width: 350px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.best-offer-img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 15px solid #ff0000;
+  background: lightgray 150.038% 100%;
+}
+
+.year-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.year-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* holiday style starts */
+
+.holiday-section {
+  margin: 0px 140px;
+}
+
+.functional {
+  color: #070211;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.holiday-offer-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.holidays-span {
+  color: #f00;
+}
+
+.holiday-offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0px 400px;
+  margin-bottom: 50px;
+}
+
+/* best gift style start */
+
+.best-gift-section {
+  margin: 0px 140px;
+}
+
+.best-gift {
+  color: #f00;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.best-gift-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.best-gift-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-right: 400px;
+}
+
+.best-gift-img {
+  position: absolute;
 }
