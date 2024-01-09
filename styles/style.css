@@ -283,5 +283,84 @@
 }
 
 .best-gift-img {
-  position: absolute;
+  display: flex;
+}
+.best-gift-img img {
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+}
+
+/* subscription style start */
+
+.subscription {
+  margin: 100px 140px;
+  padding: 100px 250px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscription img {
+  display: flex;
+  margin: auto;
+}
+
+.subscription-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.subscription-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.email {
+  width: 648px;
+  height: 72px;
+}
+.sub-btn {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+}
+
+/* footer section start */
+
+.footer {
+  align-items: center;
+  margin: 100px 140px;
+  background: #070211;
+  width: 1250px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.address {
+  display: flex;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.icons img {
+  width: 50px;
+  height: 54px;
+}
+
+.copywrite {
+  display: flex;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
